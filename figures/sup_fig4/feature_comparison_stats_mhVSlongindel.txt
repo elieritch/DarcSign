@@ -1,0 +1,15 @@
+#==============================================
+BRCA2 statistics:
+Mann-Whitney of BRCA2 for 5:Del:R:0
+MannwhitneyuResult(statistic=199.5, pvalue=1.6665849207831142e-11)
+Mann-Whitney of BRCA2 for 5:Del:M:1
+MannwhitneyuResult(statistic=412.5, pvalue=1.313621662760276e-08)
+Mann-Whitney of BRCA2 for 5:Del:M:2
+MannwhitneyuResult(statistic=875.0, pvalue=0.0007463565674774006)
+Mann-Whitney of BRCA2 for 5:Del:M:3
+MannwhitneyuResult(statistic=1004.0, pvalue=0.002202689154603186)
+Mann-Whitney of BRCA2 for 5:Del:M:4
+MannwhitneyuResult(statistic=1124.5, pvalue=0.013357928565103084)
+Mann-Whitney of BRCA2 for 5:Del:M:5
+MannwhitneyuResult(statistic=1189.0, pvalue=0.24342261446065044)
+#==============================================

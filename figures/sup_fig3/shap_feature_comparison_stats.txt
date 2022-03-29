@@ -1,0 +1,60 @@
+#==============================================
+BRCA2 statistics:
+Mann-Whitney of BRCA2 for A[C>G]G
+MannwhitneyuResult(statistic=586.0, pvalue=8.475019518879983e-07)
+Mann-Whitney of BRCA2 for 5:Del:R:0
+MannwhitneyuResult(statistic=199.5, pvalue=1.6665849207831142e-11)
+Mann-Whitney of BRCA2 for CopyFraction_3
+MannwhitneyuResult(statistic=1008.0, pvalue=0.09761544598713934)
+Mann-Whitney of BRCA2 for T[C>G]A
+MannwhitneyuResult(statistic=557.0, pvalue=8.879084440050532e-06)
+Mann-Whitney of BRCA2 for C[C>A]C
+MannwhitneyuResult(statistic=542.0, pvalue=8.714045456509792e-06)
+Mann-Whitney of BRCA2 for T[C>G]T
+MannwhitneyuResult(statistic=428.5, pvalue=3.3220029449406524e-07)
+Mann-Whitney of BRCA2 for CopyFraction_5
+MannwhitneyuResult(statistic=756.5, pvalue=0.002208064078431109)
+Mann-Whitney of BRCA2 for C[C>G]T
+MannwhitneyuResult(statistic=392.5, pvalue=2.6599757654254163e-08)
+Mann-Whitney of BRCA2 for SegSize_2
+MannwhitneyuResult(statistic=485.0, pvalue=2.995850444568128e-06)
+#==============================================
+CDK12 statistics:
+Mann-Whitney of CDK12 for CN_2:
+MannwhitneyuResult(statistic=309.5, pvalue=0.006022872381375314)
+Mann-Whitney of CDK12 for CopyFraction_2:
+MannwhitneyuResult(statistic=376.0, pvalue=0.02715163111734857)
+Mann-Whitney of CDK12 for SegSize_0:
+MannwhitneyuResult(statistic=120.0, pvalue=1.4497634936301886e-05)
+Mann-Whitney of CDK12 for G[T>G]C:
+MannwhitneyuResult(statistic=461.0, pvalue=0.06721178493633514)
+Mann-Whitney of CDK12 for CNCP_3:
+MannwhitneyuResult(statistic=195.5, pvalue=0.0002113895871161301)
+Mann-Whitney of CDK12 for 1:Ins:C:1:
+MannwhitneyuResult(statistic=407.5, pvalue=0.04376790483418172)
+Mann-Whitney of CDK12 for BCperCA_0:
+MannwhitneyuResult(statistic=147.5, pvalue=4.0236531695440794e-05)
+Mann-Whitney of CDK12 for 1:Del:T:2:
+MannwhitneyuResult(statistic=419.5, pvalue=0.027303196921413704)
+Mann-Whitney of CDK12 for CNCP_1:
+MannwhitneyuResult(statistic=267.0, pvalue=0.001943546814697976)
+#==============================================
+MMR statistics:
+Mann-Whitney of CDK12 for 1:Del:C:5:
+MannwhitneyuResult(statistic=0.0, pvalue=3.3236014876453755e-23)
+Mann-Whitney of CDK12 for G[C>T]G:
+MannwhitneyuResult(statistic=0.5, pvalue=4.85094021085349e-11)
+Mann-Whitney of CDK12 for G[T>C]G:
+MannwhitneyuResult(statistic=1.0, pvalue=7.416905002973049e-12)
+Mann-Whitney of CDK12 for A[C>T]G:
+MannwhitneyuResult(statistic=0.0, pvalue=4.6985008605337737e-11)
+Mann-Whitney of CDK12 for CN_6:
+MannwhitneyuResult(statistic=317.5, pvalue=1.2236906414854084e-05)
+Mann-Whitney of CDK12 for G[C>T]T:
+MannwhitneyuResult(statistic=4.5, pvalue=2.192764174280969e-11)
+Mann-Whitney of CDK12 for CopyFraction_6:
+MannwhitneyuResult(statistic=214.5, pvalue=4.045369921077848e-07)
+Mann-Whitney of CDK12 for C[C>T]T:
+MannwhitneyuResult(statistic=163.0, pvalue=3.3381833629919375e-08)
+Mann-Whitney of CDK12 for C[C>T]G:
+MannwhitneyuResult(statistic=0.0, pvalue=4.7195228461062105e-11)
