@@ -62,6 +62,8 @@ One of the products of the sequenza pipeline is a file with the suffix "_segment
 | end.pos     |  End position of segment (int)    |
 | CNt         |  Copy number tumor (int)          |
 
+For the exact commands of how sequenza was run for this project to create this file, they are located in `DarcSign/darc_sign_pipeline/sequenza_slurm_pipeline/`
+
 The directory also contains a centromere position defining file downloaded from http://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/cytoBand.txt.gz which is used for feature calculation.
 
 ### Running the classifier on sample using `./darcsign_predict.py`:
