@@ -30,8 +30,11 @@ Download this repository and the xgboost models on figshare
 ```bash
 # clone form get or wget
 git clone https://github.com/elieritch/DarcSign.git;
-#download and extract model directory from figshare into ./sc-im/models
-cd sc-im; wget https://figshare.com/ndownloader/files/34540430l; tar -xzvf models.tar.gz;
+#download and extract model directory from figshare ~65mb
+cd DarcSign; 
+wget https://figshare.com/ndownloader/files/34540430 -O models.tar.gz; 
+tar -xzvf models.tar.gz;
+rm models.tar.gz;
 ```
 
 ## Running the classifier
@@ -84,12 +87,12 @@ The processed set of features extracted from the input data:
   - `./darc_sign_pipeline/test_data_output/sample_name/sample_name_ndl83feature_matrix.tsv`
 
 ## Graphs of the feature values as proportions of their feature sets
-<img src="screenshots/CN_all_samples.png" width=70% height=70%>
-<img src="screenshots/indel83_all_samples.png" width=70% height=70%>
-<img src="screenshots/snv96_all_samples.png" width=70% height=70%>
+<img src="screenshots/CN_all_samples.png" width=90%>
+<img src="screenshots/indel83_all_samples.png" width=90%>
+<img src="screenshots/snv96_all_samples.png" width=90%>
 
 ## A table that specifies the sample name and the probability of each deficiency
 
-|    sample    | prob_of_BRCA2d | prob_of_CDK12d | prob_of_MMRd |
-|--------------|----------------|----------------|--------------|
-|  sample_010  |    0.881962    |   0.33209658   | 0.081173204  |
+|   sample   | prob_of_BRCA2d | prob_of_CDK12d | prob_of_MMRd |
+|------------|----------------|----------------|--------------|
+| sample_010 |    0.881962    |   0.33209658   | 0.081173204  |
