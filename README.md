@@ -102,6 +102,6 @@ Each subdirectory of `./figures` contains python scripts and the figures generat
 
 Figure 5A                            |  Figure 5B                                                  
 :-----------------------------------:|:--------------:
-<img src="screenshots/bladder_probabilities.png" width=98.5%> | <img src="screenshots/bladder_prostate_umap.png">
+<img src="screenshots/bladder_probabilities.png"> | <img src="screenshots/bladder_prostate_umap.png">
 
 ## References
