@@ -419,8 +419,7 @@ all_data_with_preds = all_data_with_preds.drop(columns="labels").rename(columns=
 all_probabilites_list.append(all_data_with_preds)
 all_data_with_preds.to_csv(outputdir+"/"+goi+"_predictions.tsv",sep='\t', index=False)
 
-saved_model_path = outputdir+"/"+goi+".joblib.model.dat"
-dump(fitted_model, saved_model_path)
+fitted_model.save_model(fr"{model_output_dir}\{goi}.xgb_py37_xgboost_ml.model.txt")
 
 all_data = pd.concat([Y_test, Y_train])
 all_prob_of_true = np.concatenate([prediction_prob_of_true_test, prediction_prob_of_true_train])
@@ -510,8 +509,7 @@ all_data_with_preds = all_data_with_preds.drop(columns="labels").rename(columns=
 all_probabilites_list.append(all_data_with_preds)
 all_data_with_preds.to_csv(outputdir+"/"+goi+"_predictions.tsv",sep='\t', index=False)
 
-saved_model_path = outputdir+"/"+goi+".joblib.model.dat"
-dump(fitted_model, saved_model_path)
+fitted_model.save_model(fr"{model_output_dir}\{goi}.xgb_py37_xgboost_ml.model.txt")
 
 all_data = pd.concat([Y_test, Y_train])
 all_prob_of_true = np.concatenate([prediction_prob_of_true_test, prediction_prob_of_true_train])
@@ -601,8 +599,7 @@ all_data_with_preds = all_data_with_preds.drop(columns="labels").rename(columns=
 all_probabilites_list.append(all_data_with_preds)
 all_data_with_preds.to_csv(outputdir+"/"+goi+"_predictions.tsv",sep='\t', index=False)
 
-saved_model_path = outputdir+"/"+goi+".joblib.model.dat"
-dump(fitted_model, saved_model_path)
+fitted_model.save_model(fr"{model_output_dir}\{goi}.xgb_py37_xgboost_ml.model.txt")
 
 all_data = pd.concat([Y_test, Y_train])
 all_prob_of_true = np.concatenate([prediction_prob_of_true_test, prediction_prob_of_true_train])
