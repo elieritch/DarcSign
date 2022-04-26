@@ -174,21 +174,21 @@ df_bc_only = pd.merge(sample_labels, sigs, how='left', on='sample').query('(canc
 all_probabilites_list = []
 gene = "BRCA2d"
 modeldir = os.path.join(rootdir, "models")
-gene_model = os.path.join(modeldir, f"{gene}.xgb_py37_xgboost_ml.model.json")
+gene_model = os.path.join(modeldir, f"{gene}.xgb_py37_xgboost_ml.model.txt")
 model_path = os.path.expanduser(gene_model)
 predictions = predict_bladder(model_path, df_bc_only, gene)
 all_probabilites_list.append(predictions)
 
 gene = "CDK12d"
 modeldir = os.path.join(rootdir, "models")
-gene_model = os.path.join(modeldir, f"{gene}.xgb_py37_xgboost_ml.model.json")
+gene_model = os.path.join(modeldir, f"{gene}.xgb_py37_xgboost_ml.model.txt")
 model_path = os.path.expanduser(gene_model)
 predictions = predict_bladder(model_path, df_bc_only, gene)
 all_probabilites_list.append(predictions)
 
 gene = "MMRd"
 modeldir = os.path.join(rootdir, "models")
-gene_model = os.path.join(modeldir, f"{gene}.xgb_py37_xgboost_ml.model.json")
+gene_model = os.path.join(modeldir, f"{gene}.xgb_py37_xgboost_ml.model.txt")
 model_path = os.path.expanduser(gene_model)
 predictions = predict_bladder(model_path, df_bc_only, gene)
 all_probabilites_list.append(predictions)
