@@ -218,21 +218,21 @@ all_prob_table["color"] = '#1f77b4'
 all_prob_table.loc[all_prob_table[f"prob_of_{gened}"] > 0.8, "color"] = '#d62728'
 ax[0].bar(x=all_prob_table.index, height=all_prob_table[f"prob_of_{gened}"], width=0.8, edgecolor=None, linewidth=0, color=all_prob_table["color"], zorder=10)
 barplot_aesthetics(all_prob_table, ax[0], gened)
-barplot_legend(gened, "BRCA2p", '#d62728', ax[0], fs=6)
+barplot_legend(gened, "BRCA2wt", '#d62728', ax[0], fs=6)
 
 gened="CDK12d"
 all_prob_table["color"] = '#1f77b4'
 all_prob_table.loc[all_prob_table[f"prob_of_{gened}"] > 0.5, "color"] = '#2ca02c'
 ax[1].bar(x=all_prob_table.index, height=all_prob_table[f"prob_of_{gened}"], width=0.8, edgecolor=None, linewidth=0, color=all_prob_table["color"], zorder=10)
 barplot_aesthetics(all_prob_table, ax[1], gened)
-barplot_legend(gened, "CDK12p", '#2ca02c', ax[1], fs=6)
+barplot_legend(gened, "CDK12wt", '#2ca02c', ax[1], fs=6)
 
 gened="MMRd"
 all_prob_table["color"] = '#1f77b4'
 all_prob_table.loc[all_prob_table[f"prob_of_{gened}"] > 0.5, "color"] = '#9467bd'
 ax[2].bar(x=all_prob_table.index, height=all_prob_table[f"prob_of_{gened}"], width=0.8, edgecolor=None, linewidth=0, color=all_prob_table["color"], zorder=10)
 barplot_aesthetics(all_prob_table, ax[2], gened)
-barplot_legend("MMRd   ", "MMRp", '#9467bd', ax[2], fs=6)
+barplot_legend("MMRd   ", "MMRwt", '#9467bd', ax[2], fs=6)
 
 fig.subplots_adjust(hspace=0.05, wspace=0.0, left=0.145, right=0.995, top=0.99, bottom=0.01)
 plt.savefig(os.path.join(figdir, f"bladder_probabilities.png"), dpi=500, transparent=False, facecolor="w")
