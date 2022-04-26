@@ -227,7 +227,7 @@ df_pc = pd.merge(sample_labels, sigs, how='left', on='sample').query('(cancer ==
 #%%
 gene = "BRCA2d"
 modeldir = os.path.join(rootdir, "models")
-gene_model = os.path.join(modeldir, f"{gene}.xgb_py37_xgboost_ml.model.json")
+gene_model = os.path.join(modeldir, f"{gene}.xgb_py37_xgboost_ml.model.txt")
 model_path = os.path.expanduser(gene_model)
 predictions, xdata, ylabels, loadedmodel = predict_repair_deficiency(model_path, df_pc, gene)
 
@@ -249,7 +249,7 @@ plt.close()
 #%%
 gene = "CDK12d"
 modeldir = os.path.join(rootdir, "models")
-gene_model = os.path.join(modeldir, f"{gene}.xgb_py37_xgboost_ml.model.json")
+gene_model = os.path.join(modeldir, f"{gene}.xgb_py37_xgboost_ml.model.txt")
 model_path = os.path.expanduser(gene_model)
 predictions, xdata, ylabels, loadedmodel = predict_repair_deficiency(model_path, df_pc, gene)
 
@@ -271,7 +271,7 @@ plt.close()
 #%%
 gene = "MMRd"
 modeldir = os.path.join(rootdir, "models")
-gene_model = os.path.join(modeldir, f"{gene}.xgb_py37_xgboost_ml.model.json")
+gene_model = os.path.join(modeldir, f"{gene}.xgb_py37_xgboost_ml.model.txt")
 model_path = os.path.expanduser(gene_model)
 predictions, xdata, ylabels, loadedmodel = predict_repair_deficiency(model_path, df_pc, gene)
 
