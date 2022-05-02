@@ -1,6 +1,6 @@
 # DARC Sign (DnA Repair Classification Signatures)
 
-### *Note: This repository accompanies the publication "A generalizable machine learning framework for classifying DNA repair defects using ctDNA exomes". It is meant to ensure reproducibly of the publication and fascilate the use of the "DARC Sign" package to predict DNA repair defects for research and/or clinical applications.*
+### *Note: This repository accompanies the publication "A generalizable machine learning framework for classifying DNA repair defects using ctDNA exomes". It is meant to ensure reproducibly of the publication and facilitate the use of the "DARC Sign" package to predict DNA repair defects for research and/or clinical applications.*
 ## This tool includes the generation of signatures from standard maf and seg files and trained XGBoost models that use the features.
 ![demo image](screenshots/graphical_abstract.png?raw=true)
 
