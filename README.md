@@ -74,7 +74,7 @@ script="/path/to/darcsign_predict.py"; #from this git repo
 #activate appropriate environment
 conda activate darcsign_env;
 #run the script
-python ${script} -m ${maf} -s ${seg} -od ${od} -sn ${sn}
+python ${script} -m ${maf_file} -s ${seg_file} -od ${output_directory} -sn ${sample_name};
 ```
 
 ## Output interpretation
